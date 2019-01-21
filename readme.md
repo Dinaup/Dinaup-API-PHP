@@ -12,7 +12,7 @@ Para poder utilizar las funciones de ejemplo, debe instalar el siguiente módulo
 
 
 
-## Qué debemos configurar en Dinaup Terminal
+## Lo que debemos configurar en Dinaup Terminal
 
 En Dinaup Terminal, dentro de la sección *Áreas de acceso web* encontrará un registro que se ha creado automáticamente llamado *Área REST JSON*, el cual debe configurar.
 
@@ -47,7 +47,7 @@ En Dinaup Terminal, dentro de la sección *Áreas de acceso web* encontrará un 
 
 
 
-## Qué debemos configurar en esta Web
+## Lo que debemos configurar en esta Web
 
 En el archivo `aplicacion/configuracion.php` debe rellenar las siguientes variables.
 
@@ -65,7 +65,7 @@ En el archivo `aplicacion/configuracion.php` debe rellenar las siguientes variab
 
   Zona horaria local para la aplicación.
 
-  [*]: Todos los valores con formato Fecha y hora (datetime) Dinaup los administra en formato UTC.
+  [^Zona horaria]: Todos los valores con formato Fecha y hora (datetime) Dinaup los administra en formato UTC.
 
   
 
@@ -115,11 +115,11 @@ Implementar funcionalidad en la plataforma.
 
 2. Se abrirá una ventana con los campos rellenado, revise los datos y confirme pulsando el botón ‘Aceptar’.
 
-   [*]: La KeyWord (KEYWORD_FUNCIONALIDAD) se utiliza para el nombre de archivos y para URL.
+   [^*]: La KeyWord (KEYWORD_FUNCIONALIDAD) se utiliza para el nombre de archivos y para URL.
 
 3. Se abrirá una ventana, en la que debe seleccionar donde desea guardar el documento que gestionará las llamadas API,  seleccione la ruta del Proyecto de ejemplo `/aplicación/paginas/`. 
 
-   [*]: Si no está accesible la ruta `/aplicación/paginas/`, puede seleccionar cualquier otro directorio y copiar los archivos manualmente.
+   [^*]: Si no está accesible la ruta `/aplicación/paginas/`, puede seleccionar cualquier otro directorio y copiar los archivos manualmente.
 
 Archivos generados:
 o	`/aplicacion/paginas/{KEYWORD_FUNCIONALIDAD}.php`
