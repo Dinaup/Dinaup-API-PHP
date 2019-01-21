@@ -54,7 +54,8 @@ En el archivo `aplicacion/configuracion.php` debe rellenar las siguientes variab
 - **DinaupURLAPI** 
 
   Dirección donde se encuentra el servidor de Dinaup
-  Ejemplo: http://localhost:4444
+  Ejemplo: http://localhost:4444 
+  
   Ejemplo (SSL): https://localhost:55555
 
 - **DinaupAPIKey**
