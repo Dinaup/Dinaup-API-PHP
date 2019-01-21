@@ -54,8 +54,8 @@ En el archivo `aplicacion/configuracion.php` debe rellenar las siguientes variab
 - **DinaupURLAPI** 
 
   Dirección donde se encuentra el servidor de Dinaup
-  Ejemplo: http://localhost:4444/
-  Ejemplo (SSL): https://localhost:55555/
+  Ejemplo: http://localhost:4444
+  Ejemplo (SSL): https://localhost:55555
 
 - **DinaupAPIKey**
 
@@ -65,7 +65,7 @@ En el archivo `aplicacion/configuracion.php` debe rellenar las siguientes variab
 
   Zona horaria local para la aplicación.
 
-  [^Zona horaria]: Todos los valores con formato Fecha y hora (datetime) Dinaup los administra en formato UTC.
+  [*]: Todos los valores con formato Fecha y hora (datetime) Dinaup los administra en formato UTC.
 
   
 
